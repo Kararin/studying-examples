@@ -1,0 +1,12 @@
+{
+  "name": "serviceworker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start -s -f index.html app.js sw.js src --no-ui --notify"
+  },
+  "author": "",
+  "license": "ISC"
+}
